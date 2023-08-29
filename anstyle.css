@@ -1,0 +1,65 @@
+head{
+    background-color: gray;
+}
+.tab {
+    overflow: hidden;
+    border: none;
+    background-color: #f1f1f1;
+}
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+#bar{
+    border:solid black;
+    border-width: 0 1px;
+}
+.tab button:hover {
+    background-color:#b4b4b4;
+}
+#pic{
+    border:3px solid;
+    margin-left: 30px;
+}
+#text{
+	width: 400px;
+	display: inline-block;
+    margin-top: 30px;
+    margin-left: 35px;
+}
+#about{
+    background-color: #b4b4b4;
+    text-decoration: underline;
+}
+#act {
+	margin-left: 190px;
+	font-size: large;
+}
+#skp{
+	margin-left: 190px;
+}
+html, body {
+    height:fit-content;
+    width: 700px;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+body{
+    width: 1000px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#main{
+    border:solid black;
+    border-width: 0 1px;
+}
