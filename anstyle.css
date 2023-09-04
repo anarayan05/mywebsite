@@ -24,25 +24,31 @@ head{
     background-color:#b4b4b4;
 }
 #pic{
+    margin-top: 40px;
     border:3px solid;
     margin-left: 30px;
 }
 #text{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	width: 400px;
 	display: inline-block;
     margin-top: 30px;
-    margin-left: 35px;
+    margin-left: 30px;
 }
 #about{
     background-color: #b4b4b4;
     text-decoration: underline;
 }
-#act {
-	margin-left: 190px;
-	font-size: large;
+#act,#course {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	text-align: center;
+	font-size: 26px;
 }
-#skp{
-	margin-left: 190px;
+#acdes,#cdes{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	margin-left: 110px;
+    font-size:15px;
+    margin-right: 20px;
 }
 html, body {
     height:fit-content;
